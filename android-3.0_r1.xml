@@ -25,7 +25,7 @@
   <project path="device/moto/common" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251" />
   <!-- HRI39 x2, original commit is 491a8f940a4c3ead028dc0716913d5e846b0f395. Have to ask it to copy over the vendor blobs. -->
   <project path="device/moto/stingray" name="device_moto_stingray" remote="github" revision="HRI39-vendorblobs" />
-  <project path="device/sample" name="device/sample" revision="79f92c72e9662fc517fcd300a0c475ca96833649" />
+  <project path="device/sample" name="device/sample" revision="433c857afdc70b56b8034dd513cf1fc97dee3ffd" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="403f11d92b25f7c3060b1a973d4076c5d6585ccf" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
