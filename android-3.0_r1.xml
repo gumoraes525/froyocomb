@@ -84,7 +84,7 @@
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/llvm" name="platform/external/llvm" revision="8ea78d0cd2da9020b3f93e573aeaee8c08a3cb87" />
   <project path="external/mtpd" name="platform/external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667" />
-  <project path="external/netcat" name="platform/external/netcat" revision="3b923003c7c5a13b4ff2e2091acd307e9d1304b2" />
+  <project path="external/netcat" name="platform/external/netcat" revision="2b3431e2762434dff96ff279069e3796ef2d4333" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="ee4818b89e806fb1ef6d241cb8199716b2d0ca85" />
