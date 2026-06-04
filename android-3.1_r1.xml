@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android 3.1 build HMJ37 - reconstruction of "android-3.1_r1" tag. Build tagged on 7 May 2011, manifest made on 30 May 2026. -->
+<!-- Manifest of Android 3.1 build HMJ37 - reconstruction of "android-3.1_r1" tag. Build tagged on 7 May 2011, manifest made on 4 June 2026. -->
   <project path="build" name="platform/build" revision="16976da55e81f5c47184ac532df0808955a5bfe0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
