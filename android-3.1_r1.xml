@@ -88,7 +88,7 @@
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/llvm" name="platform/external/llvm" revision="8306ab0d838d3e4a2e2687697391182b2a7dfa2e" />
   <project path="external/markdown" name="platform/external/markdown" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" revision="ff98a1d6b0fb2fa5c1321ed2930003385e1b51c0" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" revision="0d626ca0718fac8b88b18218eb8f75e9d51b6e38" />
   <project path="external/mtpd" name="platform/external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667" />
   <project path="external/netcat" name="platform/external/netcat" revision="2b3431e2762434dff96ff279069e3796ef2d4333" />
   <project path="external/netperf" name="platform/external/netperf" />
