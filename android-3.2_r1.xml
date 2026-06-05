@@ -19,7 +19,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="90588820b7110acf142d17457f0d10cd7cb57a8a" />
   <project path="cts" name="platform/cts" revision="732ea4de0a43930d9baa32c5aa2dd641fc1b2d35" />
   <project path="dalvik" name="platform/dalvik" revision="a028d87fb310eae8cac821183aa91567ec8cb0f9" />
-  <project path="development" name="platform/development" revision="fea911d5359f1eb42ff8b9c70cd6f51500f539d4"  />
+  <project path="development" name="platform/development" revision="fea911d5359f1eb42ff8b9c70cd6f51500f539d4" />
   <project path="device/common" name="device/common" revision="b76ffcccfc230016ff968bd38dcf9e4f03f0a16a" />
   <project path="device/moto/common" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251" />
   <project path="device/moto/stingray" name="device/moto/stingray" revision="c199ebb62b5a8274992f9688f925cca96992683a" />
