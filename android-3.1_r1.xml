@@ -174,7 +174,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="5a68dd6e679cd2272ed1ec676ba29db6d4106cd5" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="a821b9482e6c8fc3aa09faabcfd53b725482f406" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="5816adf08201636adb58b21c8d3cbda870e3f628" />
-  <project path="packages/experimental" name="platform/packages/experimental" revision="af7cdee2bd6332896761befdc1f3c5e840ab7b66" />
+  <project path="packages/experimental" name="platform/packages/experimental" revision="330ecff66820f2f97f09699aadfbd1e0cd014fa1" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="eb014bf7ed093c98c275171379457054ad99e004" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="27ab9d1b806f03554d2abb50de26abe7bf234336" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="8c8df623b7097b008856c28b874a99a231eb278a" />
