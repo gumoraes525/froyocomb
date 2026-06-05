@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android 3.1 build HTJ85B - reconstruction of "android-3.2_r1" tag. Build tagged on 6 July 2011, manifest made on 6 June 2026. -->
+<!-- Manifest of Android 3.1 build HTJ85B - reconstruction of "android-3.2_r1" tag. Build tagged on 6 July 2011, manifest made on 5 June 2026. -->
   <project path="build" name="platform/build" revision="c89e9a0d040eb04fb97ac5fc662914ff0f10fb2a">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
