@@ -199,6 +199,6 @@
   <project path="system/extras" name="platform/system/extras" revision="2ae7663e1e064000356ee9e49ebd08bdddc545f9" />
   <project path="system/media" name="platform/system/media" revision="9e0e6e5c60320dac9aa2abbce2f9a843b8fc4449" />
   <project path="system/netd" name="platform/system/netd" revision="1871a4f2b20f5d2e52d67b6d91da4f8734455cd6" />
-  <project path="system/vold" name="platform/system/vold" revision="745ddcb2a6247817dde0790be4c74a81e7b324d4" />
+  <project path="system/vold" name="platform/system/vold" revision="3bcc2410f572691620647d79f0b4e96bba08c899" />
 
 </manifest>
