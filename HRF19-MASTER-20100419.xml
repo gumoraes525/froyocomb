@@ -76,16 +76,20 @@
   <project path="external/jdiff" name="platform/external/jdiff" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a" />
   <project path="external/jhead" name="platform/external/jhead" revision="8d61723fea0a5cdcd08e34325123fbd3e0bd41ae" />
   <project path="external/jpeg" name="platform/external/jpeg" revision="60ba49e6e7ce3276ad250447ad920b2434b0fbed" />
+  <!-- Not in use until 05 Aug 2010 -->
   <project path="external/jsilver" name="platform/external/jsilver" revision="b175b218264f1f4bd254151612e4c3309e240564" />
   <project path="external/jsr305" name="platform/external/jsr305" revision="5f809ef11d72a23dabd172c3fd735ccee2b03a2d" />
   <project path="external/junit" name="platform/external/junit" revision="e9b8080d6d80d17729e0b7f8b1d2b573b3456cc4" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="faeff4e8918c60eb0840f42f0d34efa7fe69db9a" />
   <project path="external/libffi" name="platform/external/libffi" revision="ac8057e23c0e1eed563db86cdeb8da8fb36665c9" />
+  <!-- Not in use until 12 Sep 2010 -->
   <project path="external/libgsm" name="platform/external/libgsm" revision="4ccd528967799be8288711f46b8bdb57198ac8b1" />
+  <!-- Not in use until 23 Sep 2010 -->
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="4ff7c86a2c706b150078274455406f1b04966e1a" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="eaf247190a94a0244bcfd4cf068f665309548a0f" />
   <project path="external/libpng" name="platform/external/libpng" revision="342380c79a16cc2e5ba7859c3fc4e40f2661ea45" />
+  <!-- Not in use until 25 May 2010 -->
   <project path="external/libvpx" name="platform/external/libvpx" revision="f513bf59d19d8a686f14e9b234204b1bd9044f57" />
   <project path="external/libxml2" name="platform/external/libxml2" revision="218647ebd721a259319b28f5719e89a4d0d1aaef" />
   <project path="external/libxslt" name="platform/external/libxslt" revision="8794a8610992ccd993cec451e9e170b0777723ee" />
@@ -99,7 +103,7 @@
   <!-- Required by frameworks/base at this time (and until 01 September 2010) -->
   <project path="external/opencore" name="platform/external/opencore" revision="master" />
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
-  <project path="external/openssl" name="platform/external/openssl" revision="7f9d8bc8c32fa4196cff8a8f1c64c5183eefad9e" />
+  <project path="external/openssl" name="platform/external/openssl" revision="221304ee937bc0910948a8be1320cb8cc4eb6d36" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="de6b5ecad5b51e38b85975c4f95a9f6e6f13719c" />
   <project path="external/ping" name="platform/external/ping" revision="05cc700c9089ff72accb1c76a67c01b5d176bf3e" />
   <project path="external/ppp" name="platform/external/ppp" revision="42d99d5976f48b5f604bda08d112d6f583674da7" />
@@ -131,10 +135,10 @@
   <!-- Originally in external/llvm/libbcc, moved to frameworks/compile/libbcc on 07 September 2010 -->
   <project path="external/llvm/libbcc" name="platform/frameworks/compile/libbcc" revision="800e9c2c78fea83e3a0a5b2699b8d15b70004282" />
   <!-- Not in use until 04 June 2010 -->
-  <!--<project path="external/llvm/slang" name="platform/frameworks/compile/slang" revision="6322c93178711b935af4ffbfe5066d10280d26ba" />-->
+  <!--<project path="external/llvm/slang" name="platform/frameworks/compile/slang" revision="462aefd62cc646d2ff753c1d003ef3cd7bbea262" />-->
   <!-- Not in use until 15 June 2010 -->
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
-  <!-- Not in use until 14 January 2011 -->
+  <!-- Not in use until 16 January 2011 -->
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="5358e878396e1c451e9f9ef07237c2e6ab662d49" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="7a44e1eb03890d533e0d4dd5f60ebbde85298c00" />
   <!-- Not in use until 03 June 2010 -->
@@ -142,14 +146,15 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="72b2ea1a8fc51ee61e49d2c889f23a8243d953e0" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="b15879a589bb5ce350869e1a735840679e4b2aaa" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="6d91052d0de3f221dfa1004ec86b338f7d982026" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="7f16e88be738d63e33e2e7c652c594379b136a01" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="9e9a37565a502a6e5d2bedd3906b0a2422d46458" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="3c865ec2f9efbe5e21b55c1b43a2fbe9ffe1000a" />
+  <!-- Not in use until 23 June 2010 -->
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="72c8c9f7d7f2f371e95918211e2bc514c96b9f83" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="3a4840bea36ce53bc0fb181811ebf9d1cd0aa261" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="b1bf6ce9c87d98335387e8475eff8e52d022202b" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="23f1bd9e9114d77087c7b8fafbcadf97de70c662" />
   <!-- Libcore wasn't moved yet. -->
-  <!--<project path="libcore" name="platform/libcore" revision="590b99434696edf3f14843c85406eaf197dbc044" />-->
+  <!--<project path="libcore" name="platform/libcore" revision="995da7ac0125caa4ad615d26cc05f7ab21de8264" />-->
   <project path="ndk" name="platform/ndk" revision="7411cf6283a24c540fad9224ad9f4438448c31c0" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="e05d3a710c592db386b55a265a1e657b0467e49f" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="939f6c2697c9852b2817975951eeeb361338c84c" />
@@ -166,7 +171,7 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="dadc3887d374c22e52693e55e81741b6593bb750" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="beb7834e73f6bc94938cb448522df19edb60d8c8" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="06fb3cf4f00b6a1d04423adb7c3c8264d81bf13d" />
-  <!-- Not in use until 12 October 2010 -->
+  <!-- Not in use until 14 October 2010 -->
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="a886d22305284e538245438c1dbeb636f979f052" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="724594dfd51f4711bc362fb8b7db1db382d243e3" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="daf7c1b499d02e5252b06e9dba8e9e3b1f055181" />
@@ -179,7 +184,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="65373ee83d14776d7c9b233f4bd54f5e549c3259" />
   <!-- Not in use until 18 October 2010 -->
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="55fe86afc0ac49c807f18d003e9df02a463b446d" />
-  <!-- Not in use until 03 December 2010 -->
+  <!-- Not in use until 17 January 2011 -->
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="f2d6c4e8afdba92ef360bbce7291e687b7af0b59" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="0df097e4c106222b9e15a62e38bff3314c036a7e" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="3d88981d9e39b077d9850825480ea8fd92e02296" />
