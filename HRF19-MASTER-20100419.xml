@@ -2,30 +2,29 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com" />
+  <remote  name="github"
+           fetch="https://github.com/froyocomb" />
   <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
-
-  <remote name="github"
-          fetch="https://github.com/froyocomb" />
 
 <!-- Manifest of Android "Gingerbread" (Honeycomb) build "HRF19". Not actually HRF19, MASTER. Build tagged on 19 April 2010 - "Mmmmmm... Gingerbread!", manifest originally made on 15 March 2026, re-made on 19 June 2026. -->
   <project path="build" name="platform/build" revision="d6f9929f4a51e3da687c0b03553661c09f0eb224">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" revision="424dff854c84b1c3f07ee6e04b811a0f6ac9c715" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="4acde5dcafa1b7c7fa241081c9b49f0bbf436c23" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="cd65e152740c709ab3edc0f4859e996ba27e8ca1" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="be598881d079511385a88b12b7a14b97e63dc85e" />
   <project path="cts" name="platform/cts" revision="6929be6ce4b9080db3bdbdaccf64a139305a0ef5" />
   <project path="dalvik" name="platform/dalvik" revision="5005a5210b941d18b7742469ba622b1c8a754b1e" />
   <project path="development" name="platform/development" revision="5a076f43d5815c8e32cd2c53dc4afce5063f6bd0" />
   <project path="device/common" name="device/common" revision="d468cbeb023507ce9c0e01e688038b9c56c403e7" />
-  <!-- Not in use until 8 July 2010 -->
+  <!-- Not in use until 08 July 2010 -->
   <project path="device/moto/common" name="device/moto/common" revision="adc90e465c04a50e9dc4e2187854d58fd21a69f2" />
-  <!-- Not in use until 1 June 2010 -->
-  <project path="device/moto/stingray" name="device/moto/stingray" revision="ae5ba0dfe71283a25916b9d9e637beb6d6d3533a" />  
+  <!-- Not in use until 01 June 2010 -->
+  <project path="device/moto/stingray" name="device/moto/stingray" revision="ae5ba0dfe71283a25916b9d9e637beb6d6d3533a" />
   <project path="device/sample" name="device/sample" revision="223669e41d1f6b250ab44080af09237ba011aa58" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="2e9f166eba309e50c1c1f52ff8d2694f058ab2cf" />
   <project path="external/astl" name="platform/external/astl" revision="a9a7cf4eff812b972e6aabb89bed58f2013f6d3c" />
@@ -38,13 +37,14 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="acecdb4ea44e810a5ddb53e0c3fa4baf04b4a5c9" />
   <project path="external/chromium" name="platform/external/chromium" revision="5e43ad9465e402d595a3c960784b1effe2e9bd88" />
-  <!-- Originally in external/llvm/llvm/tools/clang, moved to external/clang on 7 September 2010 -->
+  <!-- Originally in external/llvm/llvm/tools/clang, moved to external/clang on 07 September 2010 -->
   <project path="external/llvm/llvm/tools/clang" name="platform/external/clang" revision="e6c39d3a3e77c17bb9aa97be6e2e1ae2dbd654db" />
-  <!-- Required for compile by droiddoc at this time (and until August 5 2010) -->
+  <!-- Required for compile by droiddoc at this time (and until 05 August 2010) -->
   <project path="external/clearsilver" name="platform/external/clearsilver" revision="21d9fa9e703887295f9c8b8661399ac05800219e" />
   <project path="external/dbus" name="platform/external/dbus" revision="412bef7d740299ad6dd6fbccc0649052ba5057b0" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="9661983ab7964d195432d905f721f9dd59163edc" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="ffd82a77512f2d0971660e9cbd77242d8982a0b5" />
+  <!-- Not in use until 04 August 2010 -->
   <project path="external/doclava" name="platform/external/doclava" revision="c8f6c750effdcfe65efc5a7d3bb62c4693cf4231" />
   <project path="external/dropbear" name="platform/external/dropbear" revision="d3a3a803df8f32e9ba26758b3a9d7fbd27a3dc9c" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="6641b4da8001b46fd17e723a572459db0325e023" />
@@ -60,12 +60,15 @@
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="a6eb0d1794880492a5779fd8e871eb9ceb3e8737" />
   <project path="external/genext2fs" name="platform/external/genext2fs" revision="28f10892a39db10b1c65125723d9737de865ef56" />
   <project path="external/giflib" name="platform/external/giflib" revision="b4ea220703d8257e5b467e3cb278e2604d9c8003" />
+  <!-- Not in use until 26 July 2010 -->
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" revision="a74c9680ebe767a3fe0a0a9d5c9beeafcac5fec8" />
   <project path="external/grub" name="platform/external/grub" revision="121d6447b523906e9ce57482b1d204df790d3557" />
   <project path="external/gtest" name="platform/external/gtest" revision="75f109c3120bf78ee89124f1f21b50ea24225236" />
   <project path="external/guava" name="platform/external/guava" revision="ca9d5e7643b8720950ece7ecdc10cba9e566cc01" />
+  <!-- Not in use until 10 May 2010 -->
   <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="ebf642a4a8174dba7c6e1f0998eb23a5b37f316f" />
-  <project path="external/hyphenation" name="platform/external/hyphenation" />
+  <!-- Not in use until 27 May 2010 -->
+  <project path="external/hyphenation" name="platform/external/hyphenation" revision="03e91e5d19c63b9b97501abae10a200ec8dfb649" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="96d41e115655b5a864497cc2b9af7a517afd2807" />
   <project path="external/iproute2" name="platform/external/iproute2" revision="87ebb23d373dbaeafa0ede7b423fa58ce81d6551" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="4fe3597dce855ea199afa239498c9c1833a6fe48" />
@@ -86,14 +89,14 @@
   <project path="external/libvpx" name="platform/external/libvpx" revision="f513bf59d19d8a686f14e9b234204b1bd9044f57" />
   <project path="external/libxml2" name="platform/external/libxml2" revision="218647ebd721a259319b28f5719e89a4d0d1aaef" />
   <project path="external/libxslt" name="platform/external/libxslt" revision="8794a8610992ccd993cec451e9e170b0777723ee" />
-  <!-- Originally in external/llvm/llvm, moved to external/llvm on 7 September 2010 -->
+  <!-- Originally in external/llvm/llvm, moved to external/llvm on 07 September 2010 -->
   <project path="external/llvm/llvm" name="platform/external/llvm" revision="6037a7c3c97b651dd70e48ebe5453134713971ed" />
   <project path="external/mtpd" name="platform/external/mtpd" revision="7d4f656f92c2c846741c81facf13958d40570b0f" />
   <project path="external/netcat" name="platform/external/netcat" revision="d7f236d811e18b8de3cabdf1a69a28ecedbb3a02" />
   <project path="external/netperf" name="platform/external/netperf" revision="25cb4566b4308be0ab067caff41042d51119b21b" />
   <project path="external/neven" name="platform/external/neven" revision="d898f9992b4db8f63ec707b07f3802ce3181ffda" />
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="81db327fe77d1f66501e72010cb27a968190090d" />
-  <!-- Required by frameworks/base at this time (and until 1 September 2010) -->
+  <!-- Required by frameworks/base at this time (and until 01 September 2010) -->
   <project path="external/opencore" name="platform/external/opencore" revision="master" />
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
   <project path="external/openssl" name="platform/external/openssl" revision="7f9d8bc8c32fa4196cff8a8f1c64c5183eefad9e" />
@@ -119,14 +122,13 @@
   <project path="external/tremolo" name="platform/external/tremolo" revision="20dda290edd481880682bdc9ac9d1aa4ef6410b6" />
   <project path="external/v8" name="platform/external/v8" revision="1c868babac3b1331576e5f21a14853d76620a56a" />
   <project path="external/webkit" name="platform/external/webkit" revision="adca91a245695a3f29234ad789d7bb18a1f4a2b1" />
-  <project path="external/webp" name="platform/external/webp" revision="f095c389ba60b29d91091acd2281f674cae9951b" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="97168b54aa9d793599ec95515296e9149bd920a0" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="d82128d89c860044606cabe00169738f4bf0c800" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="3b3ab6dcd91da784f1573de419747e4f7645a58c" />
   <project path="external/zlib" name="platform/external/zlib" revision="d834beaf3037eed0745f6dbd987a3bd8b3bf7ee4" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="2dedce6e84679ead961a485c7fe4b0f77c713b6a" />
-  <!-- Originally in external/llvm/libbcc, moved to frameworks/compile/libbcc on 7 September 2010 -->
+  <!-- Originally in external/llvm/libbcc, moved to frameworks/compile/libbcc on 07 September 2010 -->
   <project path="external/llvm/libbcc" name="platform/frameworks/compile/libbcc" revision="800e9c2c78fea83e3a0a5b2699b8d15b70004282" />
   <!-- Not in use until 04 June 2010 -->
   <!--<project path="external/llvm/slang" name="platform/frameworks/compile/slang" revision="6322c93178711b935af4ffbfe5066d10280d26ba" />-->
@@ -159,7 +161,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="62635537e5df11628606b12bcabdc7f12814b869" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="64e48ae31bff43e65a73034cb3176341aac3fe96" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="9a4cece52995545c210d2e6bf7eb4748caa184ec" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery3D" revision="97d4e6511eb82c75c0ecfde9b1f86bf27e4263ef" />
+  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" revision="97d4e6511eb82c75c0ecfde9b1f86bf27e4263ef" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="ddefb881cf60340edd5102180bad3ddc0251f4dc" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="dadc3887d374c22e52693e55e81741b6593bb750" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="beb7834e73f6bc94938cb448522df19edb60d8c8" />
