@@ -180,6 +180,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="b6aa54539269d57f8a83d9e80013f5af34154736" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="c02e258eaae69e475df3825aa71167a43b573b84" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="473a4590da5e591a3317760d06d440d93342febe" />
+  <!-- android-3.0_r1 -->
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="f075eb5cefb6357aa7562a6d156bda5383ac087d" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="65373ee83d14776d7c9b233f4bd54f5e549c3259" />
   <!-- Not in use until 18 October 2010 -->
@@ -189,6 +190,7 @@
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="0df097e4c106222b9e15a62e38bff3314c036a7e" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="3d88981d9e39b077d9850825480ea8fd92e02296" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="857cde9007072caf916c77edacc6543738374d54" />
+  <!-- android-3.0_r1 -->
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="27ab9d1b806f03554d2abb50de26abe7bf234336" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="c04d7b727e3d1ee8cdeef5e2a634ce2d2df1e9ab" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="143957ead6c8f14e033037db5ca20fc6c12a2867" />
@@ -197,10 +199,11 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="4f2621523cbdb0e92d73c3e5b25815cc3d354b24" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="2da905a4bffb2ab27604234585e5d5d00db8d3c0" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="3ba8de2baa767fd2e9da52af6b2a77ee2f224d95" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="14595cbe9045755a5aa2bd28989c147c4709268c" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="022eb71bfe8ec65b8817eaa432a530194210ec23" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="5270e9b1750a8ab3ecfeb6078dd48bc9bce4d7a3" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="f63351742705d7d421166cac23f7e23255a1f72e" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="13e7423237336f7b5849a58f6926d6c868d4f519" />
+  <!-- Not in use until 28 October 2010 -->
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="7e90341a251a2b1c01781279c103cde742385353" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="36a3029fe25884e9d8851470f01e0246b7c25163" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="96dda848d3c050bae7db0962f571d6668474983e" />
@@ -210,7 +213,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="30a738e653aa2d9f7670d0b19409ce30916cc397" />
   <project path="system/core" name="platform/system/core" revision="998be767f55f2ad6880970e29c8df1fa01e365d4" />
   <project path="system/extras" name="platform/system/extras" revision="cb5fdcbeb75975b76a5c9c49d6b343f86c947804" />
-  <project path="system/media" name="platform/system/media" revision="aebee5083e2ee7d151e0e450fd59dc070cc720b9" />
+  <project path="system/media" name="platform/system/media" revision="ae87eb144deaa96de5f1ba97c126d62f8698a664" />
   <project path="system/netd" name="platform/system/netd" revision="31c61c80a013bd1a050f0f4103e13fba62bf1717" />
   <project path="system/vold" name="platform/system/vold" revision="1a06edaf4db4e9c520624bcc06e0e13ee470d90e" />
 
