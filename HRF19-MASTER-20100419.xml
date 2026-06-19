@@ -166,7 +166,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="62635537e5df11628606b12bcabdc7f12814b869" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="64e48ae31bff43e65a73034cb3176341aac3fe96" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="9a4cece52995545c210d2e6bf7eb4748caa184ec" />
-  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" revision="97d4e6511eb82c75c0ecfde9b1f86bf27e4263ef" />
+  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" revision="a8280e70649c78b9a7aca997a478207ca576a551" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="ddefb881cf60340edd5102180bad3ddc0251f4dc" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="dadc3887d374c22e52693e55e81741b6593bb750" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="beb7834e73f6bc94938cb448522df19edb60d8c8" />
