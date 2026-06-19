@@ -152,7 +152,6 @@
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="72c8c9f7d7f2f371e95918211e2bc514c96b9f83" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="3a4840bea36ce53bc0fb181811ebf9d1cd0aa261" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="b1bf6ce9c87d98335387e8475eff8e52d022202b" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="23f1bd9e9114d77087c7b8fafbcadf97de70c662" />
   <!-- Libcore wasn't moved yet. -->
   <!--<project path="libcore" name="platform/libcore" revision="995da7ac0125caa4ad615d26cc05f7ab21de8264" />-->
   <project path="ndk" name="platform/ndk" revision="7411cf6283a24c540fad9224ad9f4438448c31c0" />
