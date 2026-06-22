@@ -7,7 +7,7 @@
   <remote name="github"
           fetch="https://github.com/" />
   
-  <default revision="master"
+  <default revision="android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
   <project path="build" name="platform/build" revision="51e2bd3f229cdd68cf63ff3f7ca6211287012f89">
