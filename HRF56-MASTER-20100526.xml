@@ -189,6 +189,9 @@
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="d45490219f11475cc1df9a1fd182e75680e5f584" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="9b694a3b8f0339356c304ae078f63ae91df42226" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="90599bd1074b9b82e89f9bb080cf45b49df2876c" />
+  <!-- LatinIme2Google. This is 100% not what was included in the master Honeycomb manifest at that time, but has much more changes than the above LatinIME. -->
+  <!-- To compile, download the below revision and replace the already synced LatinIME with it, then add "LatinIme2Google" and "libjni_latinime2" to any PRODUCT_PACKAGES included in the compile. -->
+  <!--<project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="b72f348467888d6f759f8b287ec94425c2748ec0" />-->
   <!-- android-3.0_r1 -->
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="27ab9d1b806f03554d2abb50de26abe7bf234336" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="6b7954e2967754a77c55dc4291941978e3508259" />
