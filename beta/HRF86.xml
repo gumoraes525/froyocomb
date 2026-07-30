@@ -50,6 +50,7 @@
   <project path="external/doclava" name="platform/external/doclava" revision="c8f6c750effdcfe65efc5a7d3bb62c4693cf4231" />
   <project path="external/dropbear" name="platform/external/dropbear" revision="d3a3a803df8f32e9ba26758b3a9d7fbd27a3dc9c" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="7da46cbd2ee1f5f7973a5e4332cc6389e696110b" />
+  <!-- android-3.0_r1 -->
   <project path="external/easymock" name="platform/external/easymock" revision="cef83e796d0ab91f15a22f2eb837fce7cb8fe9c9" />
   <project path="external/elfcopy" name="platform/external/elfcopy" revision="62c1bed1c4505369cac2e72fbe30452a598fb690" />
   <project path="external/elfutils" name="platform/external/elfutils" revision="a25f6b75948b8253cef5ab0cd435b6fa7e1b65ae" />
