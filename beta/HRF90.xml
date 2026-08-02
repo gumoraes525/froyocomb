@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Honeycomb build HRF90. Build tagged on 29 June 2010, manifest made on 1 August 2026. -->
+<!-- Manifest of Android Honeycomb build HRF90. Build tagged on 29 June 2010, manifest made on 2 August 2026. -->
   <project path="build" name="platform/build" revision="a33a89cb295bced1ac5d1cf28252825d63d0ee74">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
